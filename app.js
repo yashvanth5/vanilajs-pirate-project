@@ -4,7 +4,7 @@ var outputDiv = document.querySelector("#output");
 
 var severUrl = "https://api.funtranslations.com/translate/pirate.json"
 
-function translatedUrl(imput) {
+function getTranslatedUrl(input) {
     return severUrl + "?" + "text= " + input
 
 }
@@ -24,11 +24,12 @@ function errorHandling(error) {
 function clickHandler() {
     // outputDiv.innerText = "translation: " + textInput.value;
     var inputText = textInput.value;
-}
-
-fetch(translatedUrl(inputText))
+    fetch(getTranslatedUrl(inputText))
     .then(response = response.json())
     .then(json => outputDiv.innerText = json.contents.translated)
     .catch(errorHandling)
+}
+
+
 
 buttonTranslate.addEventListener("click", clickHandler())
