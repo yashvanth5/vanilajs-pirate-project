@@ -31,8 +31,7 @@ function clickEventHandler()
         var outputText = json.contents.translated; 
        outputDiv.innertext = outputText;
         } )
-        
-    .catch(errorHandler)
+        .catch(errorHandler)
 };
 
 
