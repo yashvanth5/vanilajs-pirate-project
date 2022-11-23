@@ -29,7 +29,7 @@ function clickEventHandler()
     .then(response => response.json())
     .then(json => {
         var outputText = json.contents.translated; 
-       outputDiv.innertext = outputText;
+       outputDiv.innerText = outputText;
         } )
         .catch(errorHandler)
 };
