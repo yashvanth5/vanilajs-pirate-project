@@ -19,4 +19,4 @@ Translation API ("https://api.funtranslations.com/")
 
 
 # Live Project
-https://app.netlify.com/sites/piratespeaktranslater/overview
+https://piratespeaktranslater.netlify.app/
