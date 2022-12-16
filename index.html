@@ -6,40 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pirate speak</title>
-    <style>
-        textarea {
-            width: 80%;
-            padding: 1rem;
-            display: block;
-            margin: 1rem;
-            height: 10vh;
-        }
-
-        #output-txt {
-           border: 1px solid black;
-           height: 10vh;
-           width: 80%;
-           display: block;
-           margin: 1rem;
-
-        }
-
-
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <header>Pirate Talk</header>
+
     <textarea placeholder="put your text here and we will convert it to pirate language" id="text-input"></textarea>
 
 
-    <button id="btn-txt">translate</button>
+    <div class="button-trans"> <button id="btn-txt">Translate</button>     </div>
 
- <div style="font-size:larger " > output will come here 👇</div>
- <div id="output-txt"></div>
+    <h3>Here's your output 👇</h3>
+ 
+    <div id="output-txt"></div>
+
+ <h2>
+   It'a a pirate translator where it helps you to translate your normal language to pirate's language.
+</h2>
 
 
+<p>
+    An translation app by Yashvanth Kumar
+</p>
 
 
     <script src="app.js">
