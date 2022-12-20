@@ -20,3 +20,6 @@ Translation API ("https://api.funtranslations.com/")
 
 # Live Project
 https://piratespeaktranslater.netlify.app/
+
+# Screen Shots 
+![piratetalk](https://user-images.githubusercontent.com/116138513/208686226-1324f3cf-6d88-438f-bda2-889b7e183f02.PNG)
